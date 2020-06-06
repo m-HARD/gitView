@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
-use Session;
 
 class userEdit extends Controller
 {
@@ -14,9 +13,8 @@ class userEdit extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
-        //
-    }
+    {}
+    
 
     /**
      * Show the form for creating a new resource.
